@@ -1,30 +1,41 @@
-/* Created by: Mr. Coxall
-* Created on: Sep 2020
+/* Created by: Catherne Vu
+* Created on: February 25 2025
 * This file contains the CSS for index.html
 */
-.mdl-layout__header-row {
-  justify-content: center;
-  padding: 0;
-}
-
-.mdl-layout__content {
-  padding-left: 15pt;
-  padding-right: 15pt;
-  padding-top: 15pt;
-}
-
-.mdl-textfield__error {
-  color: rgb(155, 131, 227);
-}
-
-
-
-.page-content {
-  color: white;
-  font-family:'Poppins', sans-serif;
-  font-size: 1.25rem;
+h1,
+h2,
+h3,
+.header-text {
+  font-family: 'Molengo', Georgia, Times, serif;
 }
 
 body {
-  background-color: rgb(132, 175, 255);
+  background-color: cornflowerblue;
+}
+img {
+  border-radius: 100%;
+}
+
+li {
+  font-family: 'Lekton', Helvetica, Arial, sans-serif;
+  list-style-position: inside;
+}
+
+.footer {
+  float: right;
+}
+
+.header {
+  background: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/footer_lodyas.png);
+  display: inline-block;
+  opacity: 0.9;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+
+.header-and-footer {
+  background: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/footer_lodyas.png);
+  color: white;
+  opacity: 0.9;
 }
