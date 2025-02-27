@@ -2,40 +2,100 @@
 * Created on: February 25 2025
 * This file contains the CSS for index.html
 */
-h1,
-h2,
-h3,
-.header-text {
-  font-family: 'Molengo', Georgia, Times, serif;
-}
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+
 
 body {
-  background-color: cornflowerblue;
+  background-color: #404E6D;
 }
-img {
-  border-radius: 100%;
+
+.content {
+  background-color: #f4f4f4;
+  color: #404E6D;
+  font-family: "Lato", sans-serif;
+  max-width: 1080px;
+  margin: 0 auto;
+  border: 3px solid #D1A83B;
+}
+
+h1,
+h2,
+ul,
+a p {
+  text-align: center;
+}
+
+h1 {
+  font-size: 70px;
+  padding-top: 20px;
+}
+
+h2 {
+  font-size: 40px;
+  padding-top: 5px;
 }
 
 li {
-  font-family: 'Lekton', Helvetica, Arial, sans-serif;
-  list-style-position: inside;
-}
-
-.footer {
-  float: right;
-}
-
-.header {
-  background: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/footer_lodyas.png);
   display: inline-block;
-  opacity: 0.9;
-  position: fixed;
-  z-index: 1;
-  width: 100%;
+  font-size: 25px;
+  padding: 10px;
 }
 
-.header-and-footer {
-  background: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/footer_lodyas.png);
-  color: white;
-  opacity: 0.9;
+.main-pic {
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 2px solid #404E6D;
+}
+
+blockquote {
+  text-align: center;
+  font-size: 22px;
+  font-family: "Indie Flower", cursive;
+  margin: 50px;
+}
+
+.noteworthy {
+  max-width: 760px;
+  padding: 20px;
+  margin: 0 auto;
+  clear: both;
+}
+
+.tl-img {
+  width: 200px;
+  height: 100px;
+  background-color: white;
+  border: 2px solid #404E6D;
+  margin-right: 15px;
+  float: left;
+  margin-top: 10px;
+}
+
+.year {
+  font-size: 25px;
+  padding-top: 0px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.description {
+  font-size: 18px;
+  margin-top: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: #404E6D;
+  margin: 20px
+}
+
+a p:hover {
+  color: #9593ff;
+}
+
+a p {
+  font-size: 20px;
 }
