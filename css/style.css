@@ -37,12 +37,6 @@ h2 {
   padding-top: 5px;
 }
 
-li {
-  display: inline-block;
-  font-size: 25px;
-  padding: 10px;
-}
-
 .main-pic {
   display: block;
   margin: 0 auto;
