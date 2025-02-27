@@ -51,13 +51,6 @@ blockquote {
   margin: 50px;
 }
 
-.noteworthy {
-  max-width: 760px;
-  padding: 20px;
-  margin: 0 auto;
-  clear: both;
-}
-
 .tl-img {
   width: 200px;
   height: 100px;
@@ -68,7 +61,7 @@ blockquote {
   margin-top: 10px;
 }
 
-.year {
+.info {
   font-size: 25px;
   padding-top: 0px;
   margin-top: 0px;
